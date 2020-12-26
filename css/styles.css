@@ -1,5 +1,106 @@
-body {
-    background-color:beige;
+h1 {
+    font-family: English _ Byjin;
+    font-size: 60px;
+    font-style: bold;
 }
 
-.page1 
+h2 {
+    font-family: English _ Byjin;
+    font-size: 50px;
+    font-style: bold;
+}
+
+h4 {
+    font-family: English _ Byjin;
+    font-size: 40px;
+    font-style: bold;
+    padding-bottom: 0px;
+}
+
+p {
+    font-family: English _ Byjin;
+    font-size: 30px;
+}
+
+.section-page {
+    align-items: center;
+    justify-items: center; space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;   
+    display: flex;
+    text-align: center;
+}
+
+.main-page {
+    display: row; flex;
+    text-align: center;
+    align-content: space-between;
+    padding: 50px;
+}
+
+.textt {
+    display: column;
+    padding-left: 25%;
+    text-align: center;
+}
+
+
+.filmography {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.discography {
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.social-media {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.gallery1 {
+    display: row;
+}
+
+
+div.gallery {
+    margin-left: 120px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+.iframe-seonho {
+    text-align: center;
+    align-items: center;
+    padding-top: 125px;
+}
+
+.iframe-seokjin {
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.button {
+    align-items: center;
+    padding: 0 50% 0 48%;
+}
